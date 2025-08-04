@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+ 
+    padding-top: 25px;
+}
+
+@media (max-width: 390px) {
+    header{
+        display: none;
+    }
+}
