@@ -1,0 +1,48 @@
+:root {
+    /* === Background === */
+    --background-primary: #F4F5FB;
+    --background-secondary: #FFFFFF;
+
+    /* === Color === */
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    /* === Content === */
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+
+    /* === Border === */
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+
+    /* === Font Family === */
+
+    --font-family-base: 'Inter', sans-serif;
+
+    /* Font Sizes */
+    --font-size-title: 24px;
+    --font-size-label: 16px;
+    --font-size-paragraph: 16px;
+    --font-size-link: 14px;
+
+    /* Line Heights */
+    --line-height-title: 32px;
+    --line-height-label: 20px;
+    --line-height-paragraph: 20px;
+    --line-height-link: 16px;
+
+    /* Font Weights */
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-weight-medium: 500;
+}
+
+
+
+body {
+    background-color: var(--background-primary);
+}
