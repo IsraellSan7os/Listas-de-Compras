@@ -20,15 +20,23 @@
     padding-top: 1rem;
 }
 
-@media (max-width: 391px) {
+@media (max-width: 654px) {
 
     #app {
-        display: flex;
-        justify-content: center;
-    }
-
-    .header {
-        display: none;
+     display: block;
+     flex-direction: column;
     }
 
 }
+
+
+@media (max-width: 391px) {
+
+    #app {
+        display: none;
+    }
+
+
+}
+
+ 
